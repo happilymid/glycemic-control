@@ -5,6 +5,7 @@
 - [Overview](#-overview)
 - [Objective](#-objective)  
 - [Methods](#️-methods)
+- [Data & Cohort](#-data-&-cohort)
 - [Key Findings](#-key-findings)
 - [Exploratory Data Analysis](#-exploratory-data-analysis)
 - [Model Evaluation](#️-model-evaluation)
@@ -42,7 +43,7 @@ The goal of this project is to develop supervised classification models to answe
 
 ## 📈 Data & Cohort
 
-- **Data Source:** The data were obtained from MDClone, a healthcare software platform that generates synthetic data from real-world electronic health records. The synthetic data in this project is based on EHR data from the UChicago Medical Center. It includes patients who were on medications like semaglutide, tirzepatide, or liraglutide to manage their type 2 diabetes. Features were queried from MDClone using ICD-10 diagnostic codes, lab results, and outpatient prescription records.
+- **Data Source:** The data were obtained from MDClone, a healthcare software platform that generates synthetic data from real-world electronic health records. The synthetic data in this project is based on EHR data from the UChicago Medical Center. It includes patients who were on medications like semaglutide, tirzepatide, or liraglutide to manage their type 2 diabetes. Features were queried from MDClone using ICD-10 diagnostic codes, lab results, and outpatient prescription records. NOTE: The data is not available for download in this project to protect patient privacy.
 
 - **Cohort**: Patients were included in the analysis if they were 18 years or older, had uncontrolled diabetes (A1C ≥ 7%), and had been prescribed GLP-1 RA medication. Patients were excluded if they were hypoglycemic or had type 1 diabetes. 
 
